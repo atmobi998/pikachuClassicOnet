@@ -40,7 +40,7 @@ void PikachuObject::runActionStartGame()
 void PikachuObject::createUIObject()
 {
     
-    bgNode = Sprite::create("bgAnimal2.png");
+    bgNode = Sprite::create("bgAnimal1.png");
     bgNode->setPosition(this->getPosition());
     this->addChild(bgNode,z_Order_bgNode);
     character = Sprite::createWithSpriteFrameName(pikachutileName[type]);

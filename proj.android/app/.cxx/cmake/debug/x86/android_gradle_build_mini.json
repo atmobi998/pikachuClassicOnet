@@ -125,18 +125,6 @@
       "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/x86/lib/libcocos2d.a",
       "runtimeFiles": []
     },
-    "ext_md5-Debug-x86": {
-      "artifactName": "ext_md5",
-      "buildCommandComponents": [
-        "/home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
-        "-C",
-        "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/x86",
-        "ext_md5"
-      ],
-      "abi": "x86",
-      "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/x86/lib/libext_md5.a",
-      "runtimeFiles": []
-    },
     "external-Debug-x86": {
       "artifactName": "external",
       "buildCommandComponents": [
@@ -147,6 +135,18 @@
       ],
       "abi": "x86",
       "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/x86/lib/libexternal.a",
+      "runtimeFiles": []
+    },
+    "ext_md5-Debug-x86": {
+      "artifactName": "ext_md5",
+      "buildCommandComponents": [
+        "/home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/x86",
+        "ext_md5"
+      ],
+      "abi": "x86",
+      "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/x86/lib/libext_md5.a",
       "runtimeFiles": []
     },
     "ext_clipper-Debug-x86": {
