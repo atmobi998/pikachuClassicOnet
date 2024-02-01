@@ -48,28 +48,30 @@ endif()
 
 # add cross-platforms source files and header files 
 list(APPEND GAME_SOURCE
-     Classes/AdmodAndroid.cpp  
-     Classes/DrawLinePikachu.cpp  
-     Classes/PikachuObject.cpp
-     Classes/AndroidScene.cpp  
-     Classes/GameBoard.cpp        
-     Classes/PopupGame.cpp
-     Classes/AppDelegate.cpp   
-     Classes/GameScene.cpp        
+     Classes/AppDelegate.cpp 
+     Classes/AdmodAndroid.cpp 
+     Classes/AIRandomSuggest.cpp 
+     Classes/AlgorithmPikachu.cpp 
+     Classes/AlgorithmRandom.cpp 
+     Classes/AndroidScene.cpp 
+     Classes/BaseOject.cpp 
+     Classes/ButtonCustom.cpp 
+     Classes/DataUser.cpp 
+     Classes/DrawLinePikachu.cpp 
+     Classes/GameScene.cpp 
+     Classes/GameBoard.cpp 
+     Classes/HomeScene.cpp 
+     Classes/MyLine.cpp 
+     Classes/GoogleReward.cpp 
+     Classes/PikachuObject.cpp 
+     Classes/PopupGame.cpp 
      Classes/ProgressBarCustom.cpp
-     Classes/BaseOject.cpp     
-     Classes/GoogleReward.cpp     
-     Classes/RandomBot.cpp
-     Classes/ButtonCustom.cpp  
-     Classes/HelloWorldScene.cpp  
-     Classes/SuggestBot.cpp
-     Classes/CheckPairBot.cpp  
-     Classes/HomeScene.cpp
-     Classes/DataUser.cpp      
-     Classes/MyLine.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AdmodAndroid.h  
+     Classes/AIRandomSuggest.h
+     Classes/AlgorithmPikachu.h
+     Classes/AlgorithmRandom.h 
      Classes/DrawLinePikachu.h  
      Classes/MyLine.h
      Classes/AndroidScene.h  
@@ -83,9 +85,6 @@ list(APPEND GAME_HEADER
      Classes/ProgressBarCustom.h
      Classes/ButtonCustom.h  
      Classes/GoogleReward.h     
-     Classes/RandomBot.h
-     Classes/CheckPairBot.h  
-     Classes/HelloWorldScene.h  
      Classes/SuggestBot.h
      Classes/DataUser.h      
      Classes/HomeScene.h

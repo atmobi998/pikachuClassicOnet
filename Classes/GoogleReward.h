@@ -2,7 +2,7 @@
 //  GoogleReward.h
 //  PikachuOnetClassic
 //
-//  Created by Harry Nguyen on 7/15/17.
+//  Created by HoangNC on 7/15/17.
 //
 //
 
@@ -13,7 +13,7 @@
 
 class GoogleReward{
 public:
-  static void unlockAchievement(int levelUnlock);
+    static void unlockachievementGoogle(int levelUnlock);
 };
 
 #endif /* GoogleReward_h */

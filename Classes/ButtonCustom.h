@@ -2,7 +2,6 @@
 //  ButtonCustom.h
 //  PikachuConnect
 //
-//  Created by HarryNguyen on 8/18/16.
 //
 //
 
@@ -16,33 +15,33 @@ USING_NS_CC;
 
 class DelegateButton{
 public:
-  virtual void sendEventClickButton(int tag) = 0;
+   virtual void sendEventClickButton(int tag) = 0;
 };
 
 class ButtonCustom: public Node {
 public:
-  ui::Button* button;
-  Sprite* buttonSprite;
-  Label* lbText;
-  int valueText;
-  int tagButton;
-  DelegateButton* mDelegate;
+    ui::Button* button;
+    Sprite* spritebutton;
+    Label* lbText;
+    int valueText;
+    int tagButton;
+    DelegateButton* mdelegate;
 public:
-  
-  ButtonCustom();
-  virtual ~ButtonCustom();
-  void createUIButton(const char* fileName);
-  void setValueText(int value);
-  int getValueText();
-  void onEnter();
-  void onExit();
-  void update(float dt);
-  void setTagButton(int tag);
-  int getTagButton();
-  void buttonClick(Ref* pSender);
-  void setDelegate(DelegateButton* delegate);
-  void setEnableButton();
-  void setDisableButton();
+    
+    ButtonCustom();
+    virtual ~ButtonCustom();
+    void createUIButton(const char* fileName);
+    void setValueText(int value);
+    int getValueText();
+    void onEnter();
+    void onExit();
+    void update(float dt);
+    void setTagButton(int tag);
+    int getTagButotn();
+    void buttonClick(Ref* pSender);
+    void setDelegate(DelegateButton* delegate);
+    void setEnableButton();
+    void setDisnableButton();
 };
 
 #endif /* ButtonCustom_h */

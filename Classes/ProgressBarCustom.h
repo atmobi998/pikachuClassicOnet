@@ -2,7 +2,6 @@
 //  ProgressBarCustom.h
 //  PikachuConnect
 //
-//  Created by HarryNguyen on 8/18/16.
 //
 //
 #ifndef ProgressBarCustom_h
@@ -14,37 +13,39 @@
 #include "GameDefine.h"
 USING_NS_CC;
 
+
+
 class DelegateProgress {
-public:
-  virtual void setStatusProgressTime(int status) = 0;
-  virtual void sendStatusGame() = 0;
+    public:
+        virtual void setStatusProressTime(int status) = 0;
+        virtual void sendStatusGame() = 0;
 };
 
 class ProgressBarCustom: public Node
 {
 public:
-  ui::LoadingBar* loadingBar;
-  int loadingStatus;
-  int value;
-  DelegateProgress* mDelegate;
-  int countTime;
-  int levelGame;
-  float updatePercent;
+    ui::LoadingBar* loadingbar;
+    int statusLoaing;
+    int value;
+    DelegateProgress* mDelegate;
+    int countTime;
+    int levelGame;
+    float percenUpdate;
 public:
-  void createUIProgressBar(const Vec2& pos);
-  ProgressBarCustom();
-  virtual ~ProgressBarCustom();
-  virtual void onEnter();
-  virtual void onExit();
-  void update(float dt);
-  void setStatus(int status);
-  void setValue(float value);
-  float getValue();
-  static ProgressBarCustom* getInstanceProgress(int valueLoading,  int status);
-  void setDelegate(DelegateProgress* delegate);
-  void setLevelGame(int level);
-  void setTimeUpdate(float dt);
-  void setLevel(int level);
+    void createUIProgressBar(const Vec2& pos);
+    ProgressBarCustom();
+    virtual ~ProgressBarCustom();
+    virtual void onEnter();
+    virtual void onExit();
+    void update(float dt);
+    void setStatus(int status);
+    void setvalue(float value);
+    float getValue();
+    static ProgressBarCustom* getInstaceProgress(int valueLoading,  int status);
+    void setDelegate(DelegateProgress* delegate);
+    void setLevelGame(int level);
+    void setTimeUpdate(float dt);
+    void setLevel(int level);
 };
 
 #endif /* ProgressBarCustom_h */

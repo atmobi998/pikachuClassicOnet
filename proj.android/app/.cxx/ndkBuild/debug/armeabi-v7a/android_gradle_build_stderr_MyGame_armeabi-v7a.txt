@@ -1,3 +1,7 @@
+/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/jni/../../../Classes/AlgorithmRandom.cpp:79:20: warning: assigning field to itself [-Wself-assign-field]
+        arrayIndex = arrayIndex;
+                   ^
+1 warning generated.
 /home/devmob/devmob_dev/Games/pikachuClassicOnet/cocos2d/cocos/platform/android/javaactivity-android.cpp:108:34: warning: 'init' is deprecated [-Wdeprecated-declarations]
         cocos2d::DrawPrimitives::init();
                                  ^

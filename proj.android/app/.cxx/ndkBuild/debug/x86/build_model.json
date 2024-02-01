@@ -8,7 +8,7 @@
   },
   "originalCxxBuildFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/ndkBuild/debug/x86",
   "cxxBuildFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/ndkBuild/debug/x86",
-  "abiPlatformVersion": 16,
+  "abiPlatformVersion": 21,
   "variant": {
     "buildSystemArgumentList": [
       "NDK_TOOLCHAIN_VERSION\u003dclang",

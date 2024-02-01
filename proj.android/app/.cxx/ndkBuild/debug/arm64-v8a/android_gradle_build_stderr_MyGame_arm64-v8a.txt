@@ -1,3 +1,7 @@
+/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/jni/../../../Classes/AlgorithmRandom.cpp:79:20: warning: assigning field to itself [-Wself-assign-field]
+        arrayIndex = arrayIndex;
+                   ^
+1 warning generated.
 /home/devmob/devmob_dev/Games/pikachuClassicOnet/cocos2d/cocos/2d/CCLabel.cpp:684:93: warning: format specifies type 'int' but the argument has type 'std::__ndk1::basic_string<char32_t, std::__ndk1::char_traits<char32_t>, std::__ndk1::allocator<char32_t> >::size_type' (aka 'unsigned long') [-Wformat]
             cocos2d::log("Error: Label text is too long %d > %d and it will be truncated!", _utf32Text.length(), CC_LABEL_MAX_LENGTH);
                                                         ~~                                  ^~~~~~~~~~~~~~~~~~~

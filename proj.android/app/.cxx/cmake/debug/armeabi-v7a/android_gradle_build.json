@@ -174,18 +174,6 @@
       "artifactName": "cpp_android_spec",
       "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine/cocos/platform/libcpp_android_spec.a"
     },
-    "cocos2d-Debug-armeabi-v7a": {
-      "buildCommandComponents": [
-        "/home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
-        "-C",
-        "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
-        "cocos2d"
-      ],
-      "buildType": "debug",
-      "abi": "armeabi-v7a",
-      "artifactName": "cocos2d",
-      "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libcocos2d.a"
-    },
     "MyGame-Debug-armeabi-v7a": {
       "buildCommandComponents": [
         "/home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
@@ -198,6 +186,18 @@
       "artifactName": "MyGame",
       "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libMyGame.so",
       "runtimeFiles": []
+    },
+    "cocos2d-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+        "cocos2d"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "cocos2d",
+      "output": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/armeabi-v7a/lib/libcocos2d.a"
     },
     "ext_unzip-Debug-armeabi-v7a": {
       "buildCommandComponents": [
