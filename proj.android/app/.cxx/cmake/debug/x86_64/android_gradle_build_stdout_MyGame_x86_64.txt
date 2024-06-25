@@ -1,1 +1,0 @@
-ninja: Entering directory `/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/debug/x86_64'

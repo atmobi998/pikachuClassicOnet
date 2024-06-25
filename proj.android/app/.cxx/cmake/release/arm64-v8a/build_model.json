@@ -6,12 +6,12 @@
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
-  "cxxBuildFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
-  "abiPlatformVersion": 16,
+  "originalCxxBuildFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
+  "cxxBuildFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
+  "abiPlatformVersion": 21,
   "cmake": {
-    "cmakeWrappingBaseFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cxx/release/arm64-v8a",
-    "cmakeArtifactsBaseFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
+    "cmakeWrappingBaseFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cxx/release/arm64-v8a",
+    "cmakeArtifactsBaseFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -19,7 +19,7 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
+      "buildRoot": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a",
       "cmakeToolchain": "/home/devmob/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
@@ -29,7 +29,7 @@
         },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/prefab/arm64-v8a/prefab"
+          "value": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/prefab/arm64-v8a/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -49,7 +49,7 @@
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-16"
+          "value": "android-21"
         },
         {
           "name": "CMAKE_ANDROID_ARCH_ABI",
@@ -65,11 +65,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj/arm64-v8a"
+          "value": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj/arm64-v8a"
         },
         {
           "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "value": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj/arm64-v8a"
+          "value": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj/arm64-v8a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -81,7 +81,7 @@
         },
         {
           "name": "CMAKE_SYSTEM_VERSION",
-          "value": "16"
+          "value": "21"
         },
         {
           "name": "ANDROID_STL",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "cmakeServerLogFile": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt"
+    "cmakeServerLogFile": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt"
   },
   "variant": {
     "buildSystemArgumentList": [
@@ -111,8 +111,8 @@
       "-frtti -fexceptions -fsigned-char"
     ],
     "variantName": "release",
-    "objFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj",
-    "soFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj",
+    "soFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/lib",
     "isDebuggableEnabled": false,
     "validAbiList": [
       "ARMEABI_V7A",
@@ -125,13 +125,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx",
+      "cxxFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build/intermediates",
+      "intermediatesFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/build/intermediates",
       "gradleModulePathName": ":pikachuClassicOnet",
-      "moduleRootFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app",
-      "moduleBuildFile": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build.gradle",
-      "makeFile": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/CMakeLists.txt",
+      "moduleRootFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app",
+      "moduleBuildFile": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/build.gradle",
+      "makeFile": "/home/devmob/nexuszone/Games/pikachuClassicOnet/CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "/home/devmob/Android/Sdk/ndk/21.4.7075529",
       "ndkVersion": "21.4.7075529",
@@ -217,9 +217,9 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android",
-        "cxxFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/.cxx",
-        "compilerSettingsCacheFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/.cxx",
+        "rootBuildGradleFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android",
+        "cxxFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/.cxx",
+        "compilerSettingsCacheFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/.cxx",
         "sdkFolder": "/home/devmob/Android/Sdk",
         "isNativeCompilerSettingsCacheEnabled": false,
         "isBuildOnlyTargetAbiEnabled": true,
@@ -229,10 +229,10 @@
       },
       "nativeBuildOutputLevel": "QUIET"
     },
-    "prefabDirectory": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/prefab"
+    "prefabDirectory": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/prefab"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/prefab/arm64-v8a"
+  "prefabFolder": "/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/.cxx/cmake/release/prefab/arm64-v8a"
 }

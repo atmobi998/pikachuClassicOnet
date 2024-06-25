@@ -1,1 +1,1 @@
-/home/devmob/devmob_dev/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj/x86
+/home/devmob/nexuszone/Games/pikachuClassicOnet/proj.android/app/build/intermediates/cmake/release/obj/x86
